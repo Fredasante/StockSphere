@@ -50,7 +50,7 @@ const HomeNews = () => {
   return (
     <>
       {loading ? (
-        <div className="text-center">
+        <div className="text-center mt-10">
           <Spinner
             thickness="4px"
             speed="0.65s"

@@ -46,7 +46,7 @@ const NewsData = () => {
       <h1 className="mt-10 mb-5 font-bold text-lg">EXPLORE LATEST NEWS</h1>
 
       {loading ? (
-        <div className="text-center">
+        <div className="flex justify-center items-center h-[70vh]">
           <Spinner
             thickness="4px"
             speed="0.65s"
