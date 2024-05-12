@@ -76,7 +76,7 @@ const Markets = () => {
   return (
     <>
       {loading ? (
-        <div className="flex justify-center items-center h-screen">
+        <div className="flex justify-center items-center h-[50vh]">
           <Spinner
             thickness="4px"
             speed="0.65s"
